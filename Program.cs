@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace calculator
 {
     class Program
@@ -10,20 +10,20 @@ namespace calculator
             {
                 double num1;
                 double num2;
-                char symbol;
+                char Operator;
                
                 Console.WriteLine("Welcome to Calculator");
                 Console.WriteLine("Enter your number ");
                 num1 = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Enter symbol");
-                symbol = Convert.ToChar(Console.ReadLine());
+                Console.WriteLine("Enter Operator");
+                Operator = Convert.ToChar(Console.ReadLine());
 
                 Console.WriteLine("Enter another number");
                 num2 = Convert.ToDouble(Console.ReadLine());
                 double total = 0;
 
-                switch (symbol)
+                switch (Operator)
                 {
                     case '+':
                         total = num1 + num2; break;
@@ -48,7 +48,7 @@ namespace calculator
 
                     default:
 
-                        Console.WriteLine("invalid symbol");
+                        Console.WriteLine("invalid Operator");
                         break;
 
                 }
