@@ -27,4 +27,4 @@ A simple console-based calculator application written in C#. This project allows
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/Manisha241203/projects.git
